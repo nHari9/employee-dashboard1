@@ -14,7 +14,7 @@ export default function Home() {
 
 function handleSubmit(event){
     event.preventDefault();
-    localStorage.setItem("user",JSON.stringify(formData))
+    
     console.log(formData)
   }
 
